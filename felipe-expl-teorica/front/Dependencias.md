@@ -4,7 +4,7 @@ react-router-dom, axios
 
 ## React Router
 
-O router deixa a movimentação entre páginas sem o flash branco entre as áginas (chamado de flash of unstyled content). Para utilizá-lo no App.jsx deve se adicionar as rotas do seu aplicativo:
+O router deixa a movimentação entre páginas sem o flash branco entre as páginas (chamado de flash of unstyled content). Para utilizá-lo no App.jsx deve se adicionar as rotas do seu aplicativo:
 
 ```jsx
 const App = () => {
@@ -34,7 +34,11 @@ Para então navegar entre as rotas, se usa o useNavigate, e passa o caminho para
 const ExampleButton = () => {
   const navigate = useNavigate();
 
-  return <button onClick={() => navigate("/a")}>Navegar para A</button>;
+  return (
+    <button onClick={() => navigate("/a")}>
+      Navegar para A
+    </button>
+  );
 };
 ```
 
@@ -88,7 +92,7 @@ import BaseService from "./BaseService";
 //Classe singleton para extender a classe service para outros endpoints
 class ExampleService extends BaseService{
 
-  static #instance: ExampleService;
+  static #instance;
 
   private constructor(){
     super('/example');

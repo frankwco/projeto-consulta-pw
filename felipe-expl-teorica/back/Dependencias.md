@@ -57,9 +57,7 @@ User user //Usuário não pode estar vazio
 LocalDateTime time // Não pode ser um tempo futuro
 
 @Email
-String email // Automaticamente valida se é um endereço de email
-
-
+String email // Automaticamente valida se é um email
 
 ```
 
@@ -78,13 +76,12 @@ ex:
 
 ## Devtools
 
-Ferramentas do desenvolvedor, que por exemplo, detectam mudanças no código fonte e reiniciam o servidor criado
-
+Ferramentas do desenvolvedor, que por exemplo, detectam mudanças no código fonte e reiniciam o servidor criado.
 
 ## SpringDoc
 
 O spring doc cria uma página web segundo os padrões do Swagger. Essa página detalha os verbos disponíbilizados pelo servidor e deixa testar as requisições. Essa pagina está em:
 
-```
+```url
 http://localhost:8080/swagger-ui/index.html
 ```
