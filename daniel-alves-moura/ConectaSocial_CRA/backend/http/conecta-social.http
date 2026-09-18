@@ -1,0 +1,31 @@
+@base = http://localhost:8080/api
+@token = COLE_TOKEN
+
+### Login
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{"email":"admin@conectasocial.com","password":"Admin123!"}
+
+### Meu perfil
+GET {{base}}/users/me
+Authorization: Bearer {{token}}
+
+### Criar post
+POST {{base}}/posts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{"content":"Olá rede social!","imageUrl":""}
+
+### Feed
+GET {{base}}/posts/feed?page=0&size=10
+Authorization: Bearer {{token}}
+
+### Explorar com filtro
+GET {{base}}/posts/explore?q=olá&page=0&size=10
+Authorization: Bearer {{token}}
+
+### Dashboard ADMIN
+GET {{base}}/dashboard
+Authorization: Bearer {{token}}
