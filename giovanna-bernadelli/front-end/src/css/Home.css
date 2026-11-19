@@ -1,0 +1,28 @@
+.botao-entrar{
+    background-color: rgb(149, 238, 154);
+    border-radius: 1rem;
+    border: 1px;
+    color: rgb(4, 56, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-left: 2%;
+}
+
+.info{
+    background-color: rgb(223, 241, 223);
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 2%;
+}
+
+.info-escrita{
+
+    margin-left: 2rem;
+   
+}
+
+.primeira {
+     margin-top: 3rem;
+    margin-left: 2rem;
+}
