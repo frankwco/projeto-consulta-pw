@@ -1,0 +1,14 @@
+com\example\demo\repository\FreteRepository.class
+com\example\demo\DemoApplication.class
+com\example\demo\dto\FreteResponseDTO.class
+com\example\demo\enums\TipoEnvio.class
+com\example\demo\excecoes\NegocioExcecao.class
+com\example\demo\excecoes\ExcecaoGlobal.class
+com\example\demo\controller\FreteController.class
+com\example\demo\excecoes\RespostaErro.class
+com\example\demo\dto\CalculoRequestDTO.class
+com\example\demo\excecoes\NaoEncontradoExcecao.class
+com\example\demo\service\FreteService.class
+com\example\demo\dto\CalculoResponseDTO.class
+com\example\demo\model\Frete.class
+com\example\demo\dto\ResumoDTO.class

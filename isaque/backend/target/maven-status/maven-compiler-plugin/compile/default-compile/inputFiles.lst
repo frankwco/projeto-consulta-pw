@@ -1,0 +1,14 @@
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\controller\FreteController.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\DemoApplication.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\dto\CalculoRequestDTO.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\dto\CalculoResponseDTO.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\dto\FreteResponseDTO.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\dto\ResumoDTO.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\enums\TipoEnvio.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\excecoes\ExcecaoGlobal.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\excecoes\NaoEncontradoExcecao.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\excecoes\NegocioExcecao.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\excecoes\RespostaErro.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\model\Frete.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\repository\FreteRepository.java
+C:\Users\isaqu\OneDrive\Desktop\IFPR Downloads\PW-2026\arquivo-consulta-pw\projeto-consulta-pw\isaque\backend\src\main\java\com\example\demo\service\FreteService.java
