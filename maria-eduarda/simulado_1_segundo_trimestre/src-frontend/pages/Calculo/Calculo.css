@@ -1,0 +1,50 @@
+.calculo-content{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+    flex-direction: column;
+}
+
+.calculo-card{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.campo-input{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.tabela{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.form{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
