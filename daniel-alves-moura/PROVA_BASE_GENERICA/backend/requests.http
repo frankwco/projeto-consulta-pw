@@ -1,0 +1,40 @@
+### LOGIN
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@prova.com",
+  "senha": "Admin123!"
+}
+
+### Depois do login, copie o token abaixo
+@token = COLE_O_TOKEN_AQUI
+
+### LISTAR - sem filtros
+GET http://localhost:8080/api/registros?page=0&size=10
+Authorization: Bearer {{token}}
+
+### FILTROS PERSONALIZADOS - todos são opcionais e combináveis
+GET http://localhost:8080/api/registros?busca=exemplo&categoria=Categoria&status=ATIVO&valorMin=50&valorMax=300&dataInicio=2026-01-01&dataFim=2026-12-31&page=0&size=10&sort=valor&direction=desc
+Authorization: Bearer {{token}}
+
+### FILTRAR POR NOME ESPECÍFICO
+GET http://localhost:8080/api/registros?nome=Exemplo&sort=nome&direction=asc
+Authorization: Bearer {{token}}
+
+### CRIAR
+POST http://localhost:8080/api/registros
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "nome": "Novo registro",
+  "descricao": "Criado pelo arquivo HTTP",
+  "categoria": "Teste",
+  "valor": 99.90,
+  "status": "ATIVO"
+}
+
+### DASHBOARD
+GET http://localhost:8080/api/dashboard
+Authorization: Bearer {{token}}

@@ -1,0 +1,71 @@
+@baseUrl = http://localhost:8080/api
+@token = COLE_O_TOKEN_AQUI
+
+### Login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@nexuserp.com",
+  "password": "Admin123!"
+}
+
+### Dashboard
+GET {{baseUrl}}/dashboard
+Authorization: Bearer {{token}}
+
+### Clientes
+GET {{baseUrl}}/customers?page=0&size=10&sort=name,asc
+Authorization: Bearer {{token}}
+
+### Criar cliente
+POST {{baseUrl}}/customers
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Cliente Teste",
+  "email": "cliente.teste@example.com",
+  "phone": "(44) 99999-0000",
+  "document": "999.999.999-99",
+  "address": "Rua Exemplo, 123"
+}
+
+### Produtos
+GET {{baseUrl}}/products?q=note&page=0&size=10
+Authorization: Bearer {{token}}
+
+### Criar produto - ADMIN
+POST {{baseUrl}}/products
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "sku": "TESTE-001",
+  "name": "Produto Teste",
+  "description": "Exemplo de cadastro",
+  "price": 99.90,
+  "stock": 10,
+  "active": true,
+  "categoryId": 1
+}
+
+### Criar pedido
+POST {{baseUrl}}/orders
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "customerId": 1,
+  "items": [
+    { "productId": 1, "quantity": 1 },
+    { "productId": 2, "quantity": 2 }
+  ]
+}
+
+### Alterar status
+PATCH {{baseUrl}}/orders/1/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "status": "PAID" }
